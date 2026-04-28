@@ -31,7 +31,6 @@ header span {
 .main-section {
     background-color: #fafaff;
     padding: 60px 0;
-    min-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -142,6 +141,7 @@ select:hover,
 
 form {
     margin-bottom: 40px;
+    width: 100%;
     /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
 }
 
@@ -209,48 +209,65 @@ footer {
 /* Стили для адаптива под планшеты */
 @media screen and (max-width: 1200px) {
     .main-section {
+        padding: 60px 20px 100px 20px;
+        flex-direction: column;
         /* 📍 Свойства для установки минимальной высоты секции по размеру контента и нижнего внутреннего отступа */
     }
 
     .main-section .wrapper {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 60px;
         /* 📍 Свойства для расположения элементов и отступа между ними */
     }
 
     .main-image {
+        max-width: 100%;
         /* 📍 Максимальная ширина для главного изображения в % */
     }
 
     .text-wrapper {
+        max-width: 70%;
         /* 📍 Максимальная ширина для блока с текстом */
     }
 
     .about-section {
+        padding: 60px 20px;
+        flex-direction: column;
+        gap: 60px;
     /* 📍 Внутренний отступ сверху и снизу */
     }
 }
 
 @media screen and (max-width: 768px) {
     .info-wrapper {
+        flex-direction: column;
+        gap: 60px;
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
     }
+    
 }
 
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
+        padding-bottom: 60px;
+        padding-top: 30px;
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
     .main-section .wrapper {
+        gap: 40px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
 
     .main-title {
+        font-size: 36px;
         /* 📍 Размер шрифта */
     }
-
     .about-section .wrapper,
     .info-wrapper {
+        gap: 60px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
 }
