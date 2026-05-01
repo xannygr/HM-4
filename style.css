@@ -270,6 +270,7 @@ footer {
     }
 
     .main-section.container.wrapper {
+        display: flex;
         gap: 40px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
@@ -278,8 +279,9 @@ footer {
         font-size: 36px;
         /* 📍 Размер шрифта */
     }
-    .about-section,
+    .about-section.container.wrapper,
     .info-wrapper {
+        display: flex;
         gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
