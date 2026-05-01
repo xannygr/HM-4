@@ -262,7 +262,7 @@ footer {
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
-    .main-section .wrapper {
+    .main-section.wrapper {
         gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
@@ -271,7 +271,7 @@ footer {
         font-size: 36px;
         /* 📍 Размер шрифта */
     }
-    .about-section .wrapper,
+    .about-section.wrapper,
     .info-wrapper {
         gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
