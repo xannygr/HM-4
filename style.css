@@ -37,7 +37,7 @@ header span {
     align-items: center;
 }
 
-.main-section .wrapper {
+.main-section.wrapper {
     display: flex;
     align-items: center;
 }
@@ -66,16 +66,13 @@ header span {
     padding: 100px 0;
 }
 
-.about-section .wrapper {
+.about-section.wrapper {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
 }
 
-form {
-    display: flex;
-    gap: 10px;
-}
+
 
 select {
     border: 1px solid rgba(48, 48, 48, 0.3);
@@ -147,6 +144,8 @@ select:hover,
 }
 
 form {
+    display: flex;
+    gap: 10px;
     margin-bottom: 40px;
     width: 100%;
     /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
@@ -239,7 +238,7 @@ footer {
     }
 
     .about-section {
-        padding: 60px 0;
+        padding: 50px 0;
         flex-direction: column;
         gap: 50px;
     /* 📍 Внутренний отступ сверху и снизу */
