@@ -284,6 +284,9 @@ footer {
     .about-section {
         gap: 50px;
     }
+    .div.wrapper {
+        gap: 50px;
+    }
 
     .about-section .wrapper,
     .info-wrapper {
