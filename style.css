@@ -7,6 +7,7 @@
 .container {
     width: 100%;
     margin: 0px auto;
+    padding: 0 20px;
     max-width: 1180px; /* ⚠️ ОБРАТИ ВНИМАНИЕ - максимальная ширина увеличилась на размер отступов, чтобы ширина контента оставалась корректной */
     /* 📍 Свойство для внутрених отступов */
 }
@@ -14,6 +15,7 @@
 body {
     font-family: "Inter", sans-serif; 
     color: #303030;
+    min-width: 375px;
     /* 📍 Минимальная ширина */ 
 }
 
@@ -68,6 +70,11 @@ header span {
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+form {
+    display: flex;
+    gap: 20px;
 }
 
 select {
@@ -227,12 +234,12 @@ footer {
     }
 
     .text-wrapper {
-        max-width: 70%;
+        max-width: 560px;
         /* 📍 Максимальная ширина для блока с текстом */
     }
 
     .about-section {
-        padding: 60px 20px;
+        padding: 60px 0;
         flex-direction: column;
         gap: 60px;
     /* 📍 Внутренний отступ сверху и снизу */
@@ -251,13 +258,12 @@ footer {
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
-        padding-bottom: 60px;
-        padding-top: 30px;
+        padding: 30px 0 60px;
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
     .main-section .wrapper {
-        gap: 40px;
+        gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
 
@@ -267,7 +273,7 @@ footer {
     }
     .about-section .wrapper,
     .info-wrapper {
-        gap: 60px;
+        gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
 }
