@@ -270,7 +270,7 @@ footer {
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
-    .main-section.container.wrapper {
+    .main-section.wrapper {
         display: flex;
         gap: 40px;
         /* 📍 Отступ между изображением и блоком с текстом */
@@ -284,7 +284,7 @@ footer {
         gap: 50px;
     }
 
-    .about-section.container.wrapper,
+    .about-section.wrapper,
     .info-wrapper {
         display: flex;
         gap: 50px;
