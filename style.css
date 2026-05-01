@@ -278,7 +278,7 @@ footer {
         font-size: 36px;
         /* 📍 Размер шрифта */
     }
-    .about-section.container.wrapper,
+    .about-section,
     .info-wrapper {
         gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
