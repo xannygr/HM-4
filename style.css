@@ -248,7 +248,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .main-section.container.wrapper {
+    .wrapper {
         display: flex;
         gap: 60px;
         /* 📍 Отступ между изображением и блоком с текстом */
