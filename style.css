@@ -248,9 +248,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .main-section.container.wrapper {
+        gap: 60px;
+        /* 📍 Отступ между изображением и блоком с текстом */
+    }
+
     .info-wrapper {
         flex-direction: column;
-        gap: 40px;
+        gap: 60px;
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
     }
     
