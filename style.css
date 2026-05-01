@@ -222,9 +222,10 @@ footer {
     }
 
     .main-section.wrapper {
+        display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 40px;
+        gap: 60px;
         /* 📍 Свойства для расположения элементов и отступа между ними */
     }
 
@@ -239,7 +240,7 @@ footer {
     }
 
     .about-section {
-        padding: 60px 0;
+        padding: 60px 0px;
         flex-direction: column;
         gap: 60px;
     /* 📍 Внутренний отступ сверху и снизу */
@@ -262,7 +263,7 @@ footer {
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
-    .main-section.wrapper {
+    .main-section.container.wrapper {
         gap: 40px;
         /* 📍 Отступ между изображением и блоком с текстом */
     }
@@ -271,7 +272,7 @@ footer {
         font-size: 36px;
         /* 📍 Размер шрифта */
     }
-    .about-section.wrapper,
+    .about-section.container.wrapper,
     .info-wrapper {
         gap: 50px;
         /* 📍 Отступ между изображением и блоком с текстом */
