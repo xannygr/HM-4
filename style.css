@@ -265,12 +265,13 @@ footer {
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
+        display: flex;
         padding: 30px 0 60px;
         gap: 40px;
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
-    .main-section.wrapper {
+    .main-section .wrapper {
         display: flex;
         gap: 40px;
         /* 📍 Отступ между изображением и блоком с текстом */
@@ -284,7 +285,7 @@ footer {
         gap: 50px;
     }
 
-    .about-section.wrapper,
+    .about-section .wrapper,
     .info-wrapper {
         display: flex;
         gap: 50px;
